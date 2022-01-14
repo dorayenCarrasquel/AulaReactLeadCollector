@@ -5,7 +5,7 @@ import Header from "../../Header";
 export default class Login extends Component {
   render() {
     return (
-      <div>
+      <div className="Logado">
         <Header title="Login" />
         <hr />
         <Form>
