@@ -1,15 +1,15 @@
 import react, {Component} from "react";
-import { Form, FormGroup, Label, Input, Button } from "reactstrap";
+import { Form, FormGroup, Label, Input, Button, FormControls } from "reactstrap";
 import Header from "../../Header";
 
 
 export default class LandigPage extends Component{
     render (){
         return (
-            <div>
-        <Header title="Comuniquese com nós" />
+            <div className="LandingPageForm">
+        <Header title="Comunique-se com nós" />
         <hr />
-        <Form>
+        <Form className="Form">
         <FormGroup>
             <Label for="nome"> Nome</Label>
             <Input type="text" id="nome" placeholder="Informe o seu nome: " />
@@ -20,7 +20,7 @@ export default class LandigPage extends Component{
           </FormGroup>
           <FormGroup>
             <Label for="observacoes"> Observações</Label>
-            <Input type="text" id="observavoes" placeholder="Informe se tem alguma Observação " />
+            <textarea class="form-control" id="textarea" rows="5" placeholder="Informe o que sabor de arepa vc gostaria nosso cardapio: " />
           </FormGroup>
           <Button color="primary" block> Enviar </Button>
         </Form>
