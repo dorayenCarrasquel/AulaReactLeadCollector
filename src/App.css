@@ -1,6 +1,31 @@
-.App{
-	display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
+body {
+  background-image: url(https://i.pinimg.com/originals/21/61/38/21613857f86ca2c0aee90a9af2a12a04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  margin: 5%;
+  background-color: rgba(238, 245, 245, 0.219);
+  padding: 2%;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.App .LandingPageForm {
+  align-content: center;
+  padding: 2%;
+  margin: 5%;
+  background-color: rgba(255, 105, 180, 0.521);
+  border-radius: 10px;
+  border: 10px solid white;
+}
+.App .Logado {
+  padding: 2%;
+  margin: 5%;
+  background-color: rgba(255, 105, 180, 0.521);
+  border-radius: 10px;
+  border: 10px solid white;
 }
